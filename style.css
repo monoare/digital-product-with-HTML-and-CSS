@@ -45,6 +45,9 @@
   color: white;
   background-image: url("./images/background.png"),
     linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .title {
@@ -63,4 +66,27 @@
   background-color: red;
   color: white;
   border: none;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  font-size: 18px;
+  background-color: brown;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.about-title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+div.about-container h3,
+p {
+  margin: 10px 0;
 }
