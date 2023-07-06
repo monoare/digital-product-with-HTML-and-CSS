@@ -8,3 +8,25 @@
   cursor: url("https://static.vecteezy.com/system/resources/previews/010/252/114/non_2x/little-sad-emoji-file-png.png"),
     auto;
 }
+
+.container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.box {
+  padding: 20px;
+  background-color: red;
+  width: 110px;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}
