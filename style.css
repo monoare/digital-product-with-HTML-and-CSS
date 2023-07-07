@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .menu-container {
   background-color: rgb(32, 32, 32);
   padding: 20px;
@@ -89,4 +94,91 @@
 div.about-container h3,
 p {
   margin: 10px 0;
+}
+
+.service-text {
+  text-align: center;
+  font-size: 55px;
+  color: white;
+}
+
+.box {
+  width: 230px;
+  height: 320px;
+  box-shadow: 4px 4px 15px gray;
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 70px;
+}
+
+.box-btn {
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.box-title {
+  padding: 10px;
+}
+
+.box-description {
+  padding: 5px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.service-main {
+  padding-top: 100px;
+  height: 60vh;
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+}
+
+footer {
+  width: 100%;
+  height: 70vh;
+  background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  color: white;
+  line-height: 1.8em;
+}
+
+.contact-container {
+  display: flex;
+  width: 75%;
+  height: 60vh;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 20px; */
+  border-bottom: 1px solid gray;
+}
+
+.con {
+  width: 250px;
+  list-style: none;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-text {
+  padding: 10px 0 35px;
+  color: white;
+  text-align: center;
+}
+
+.fo {
+  margin-bottom: 30px;
 }
